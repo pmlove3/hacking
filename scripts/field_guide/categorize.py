@@ -35,7 +35,13 @@ from pathlib import Path
 
 def matches_category(haystack: str, keywords: list[str]) -> bool:
     """Whole-word/whole-phrase match: avoids substring false positives like
-    keyword "art" matching "apartment" or "smart"."""
+    keyword "art" matching "apartment" or "smart".
+
+    `haystack` is expected to already be lowercased by the caller; only
+    `keywords` are lowercased here. Because matching relies on \\b word
+    boundaries, a keyword with leading/trailing punctuation (e.g. "e.g.")
+    may fail to match even where it appears in the haystack.
+    """
     return any(re.search(rf"\b{re.escape(kw.lower())}\b", haystack) for kw in keywords)
 
 
