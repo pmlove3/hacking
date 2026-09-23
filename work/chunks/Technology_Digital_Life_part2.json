@@ -1,0 +1,268 @@
+[
+  {
+    "key": "gordonMakeWindowsLoad2010",
+    "title": "Make Windows Load Your Desktop Before You Log In",
+    "url": "https://lifehacker.com/make-windows-load-your-desktop-before-you-log-in-5645098",
+    "date": "2010-09-22",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Whitson Gordon"
+    ],
+    "excerpt": "Make Windows Load Your Desktop Before You Log In September 22, 2010 122 Comments Add as a preferred source on Google Whitson Gordon Table of Contents 6/25/26, 9:34 PM Make Windows Load Your Desktop Before You Log In | Lifehacker https://lifehacker.com/make-windows-load-your-desktop-before-you-log-in-5645098 1/7 If you like to be able to step away from your computer while your desktop and programs load, but don't want to enable the autologin feature, this script will begin loading your desktop when the login screen shows up. ADVERTISEMENT Technically, this trick enables auto-login and then locks your computer as soon as it starts up, but it's a clever workaround for this particular annoyance (as long as you have Windows 7 Professional or above). All you need to do is create a new text file "
+  },
+  {
+    "key": "gordonReCreateOSXs2014",
+    "title": "Re-Create OS X's Recovery Partition If You've Removed It",
+    "url": "https://lifehacker.com/re-create-os-xs-recovery-partition-if-youve-removed-it-1585382425",
+    "date": "2014-06-05",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Whitson Gordon"
+    ],
+    "excerpt": "Home Tech Tech Re-Create OS X's Recovery Partition If You've Removed It June 5, 2014 9 Comments Add as a preferred source on Google Whitson Gordon If you've deleted the recovery partition on your Mac, you might find yourself unable to use certain features, like FileVault and Find My Mac. Recovery Partition Creator is a simple script that will bring it back. At some point along the line, I deleted my Mac's recovery partition, only to find that the darn thing's actually important. Luckily, it's very easy to restore. The easiest way, I found, was to use Recovery Partition Creator, an AppleScript by Christopher Silvertooth that does the heavy lifting for you. Just download the script, double-click on it, and follow the prompts. You'll need a copy of \"Install OS X Mavericks\" downloaded from the"
+  },
+  {
+    "key": "gordonRemoveDelayWhen2012",
+    "title": "Remove the Delay when Showing and Hiding the Dock in OS X",
+    "url": "https://lifehacker.com/remove-the-delay-when-showing-and-hiding-the-dock-in-os-5897628",
+    "date": "2012-03-29",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Whitson Gordon"
+    ],
+    "excerpt": "Remove the Delay when Showing and Hiding the Dock in OS X March 29, 2012 16 Comments Add as a preferred source on Google Whitson Gordon Table of Contents 6/25/26, 9:35 PM Remove the Delay when Showing and Hiding the Dock in OS X | Lifehacker https://lifehacker.com/remove-the-delay-when-showing-and-hiding-the-dock-in-os-5897628 1/6 If you like to keep your dock automatically hidden for more screen real estate on your Mac, it might bug you that it takes a good half second for it to show up when you mouse over it. This simple terminal command will eliminate that delay, so it shows up instantly. ADVERTISEMENT This secret setting coincides with the \"Automatically Hide and Show the Dock\" preference in System Preferences > Dock, and it only works in OS X Lion. If you like that setting but don't w"
+  },
+  {
+    "key": "gordonSearchYourEmail2014",
+    "title": "Search Your Email Receipts Right from Google",
+    "url": "https://lifehacker.com/search-your-email-receipts-right-from-google-1664463851",
+    "date": "December 1, 2014",
+    "tags": [],
+    "creators": [
+      "Whitson Gordon"
+    ],
+    "excerpt": "Search Your Email Receipts Right from Google December 1, 2014 10 Comments Add as a preferred source on Google Whitson Gordon If you use Gmail, you probably know that Google can easily parse your email receipts for things like package tracking in Google Now. If you want to see a list of your most recent receipts—or see one in particular—you can just search \"my purchases\" on Google. Searching \"my purchases\" brings up a list of your recent receipts, with a dropdown to show 10 more. You can also search for a specific item (e.g. \"my purchases titanfall\") to bring up a specific receipt, like so: Obviously, you've always been able to do this in Gmail, but this is a bit quicker. Not only does it save you a click or two, but you can do it right from Chrome's address bar, since it's a Google search."
+  },
+  {
+    "key": "gordonSeeSizeAll2013",
+    "title": "See the Size of All Your Folders in OS X's Finder",
+    "url": "https://lifehacker.com/see-the-size-of-all-your-folders-in-os-xs-finder-507676988",
+    "date": "2013-05-16",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Whitson Gordon"
+    ],
+    "excerpt": "See the Size of All Your Folders in OS X's Finder May 16, 2013 23 Comments Add as a preferred source on Google Whitson Gordon By default, the Finder's list view only shows you the size of individual files—not of folders. This small, somewhat hidden setting will calculate the size of entire folders so you can see where all your data is. Reader Etudes explains: If you get annoyed as I do that sometimes you can't see the complete size of a folder in Finder, here is the way to do it: Switch to list view (View > as List); right click on an empty space and open up Show View Options; check \"Calculate all sizes.\" And voila, it will now detect the complete size. Table of Contents 6/25/26, 9:37 PM See the Size of All Your Folders in OS X's Finder | Lifehacker https://lifehacker.com/see-the-size-of-a"
+  },
+  {
+    "key": "gordonTop10Tools2012",
+    "title": "Top 10 Tools That Are Better in the Command Line",
+    "url": "https://lifehacker.com/top-10-tools-that-are-better-in-the-command-line-5935869",
+    "date": "2012-08-18",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Whitson Gordon"
+    ],
+    "excerpt": "Top 10 Tools That Are Better in the Command Line August 18, 2012 210 Comments Add as a preferred source on Google Whitson Gordon Typing commands into a terminal may seem tedious, but with the right tools, the command line can be incredibly powerful. Here are our favorite command line tools that do awesome things you just can't match in a GUI. Note: While a lot of the tutorials and videos on this page are Linux-centric, these commands are useful for everyone. Mac users can use all of these commands in their Terminal as well, and Windows users can check out Cygwin for a more UNIX-like terminal experience where these tools come in handy. Also note that not every tool comes preinstalled on every system, so you may need to install some of them separately before you can use them. Table of Conten"
+  },
+  {
+    "key": "gordonUseInstantRice2014",
+    "title": "Use Instant Rice When Reviving a Wet Phone, Not Uncooked Rice",
+    "url": "https://lifehacker.com/use-instant-rice-when-reviving-a-wet-phone-not-uncoock-1575785111",
+    "date": "May 13, 2014",
+    "tags": [],
+    "creators": [
+      "Whitson Gordon"
+    ],
+    "excerpt": "Use Instant Rice When Reviving a Wet Phone, Not Uncooked Rice May 13, 2014 21 Comments Add as a preferred source on Google Whitson Gordon It's become common knowledge that you can save a wet cellphone by putting it in a sealed container of rice. However, according to an experiment by the folks at Gazelle, regular dry rice isn't very effective—instant rice is much better. Testimonial: Rice Resurrects Even the Most Soaked of Gadgets Read More The experiment consisted of two parts: one in which they soaked nine phones and tried to revive them with different drying agents, and one in which they tested those drying agents with a wet sponge. They came to a lot of conclusions, but this was one of the most useful: Table of Contents 6/25/26, 9:39 PM Use Instant Rice When Reviving a Wet Phone, Not U"
+  },
+  {
+    "key": "gordonWaterGlassesEvernote2013",
+    "title": "Water Glasses, Evernote Shortcuts, and Gmail Searches",
+    "url": "https://lifehacker.com/water-glasses-evernote-shortcuts-and-gmail-searches-5993541",
+    "date": "2013-04-04",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Whitson Gordon"
+    ],
+    "excerpt": "Water Glasses, Evernote Shortcuts, and Gmail Searches April 4, 2013 17 Comments Add as a preferred source on Google Whitson Gordon Readers offer their best tips for dishwasher overload, hidden Evernote shortcuts, and searching for messages in Gmail. Every day we receive boatloads of great reader tips in our inbox, but for various reasons— maybe they're a bit too niche, maybe we couldn't find a good way to present it, or maybe we just couldn't fit it in—the tip didn't make the front page. From the Tips Box is where we round up some of our favorites for your buffet-style consumption. Got a tip of your own to share? Add it in the comments, email it to tips at lifehacker.com, or share it on our tips and expert pages. ADVERTISEMENT Table of Contents 6/25/26, 9:42 PM Water Glasses, Evernote Shor"
+  },
+  {
+    "key": "greenbaumAvoidBadFake2014",
+    "title": "Avoid Bad or Fake Listings on Airbnb With a Reverse Google Search",
+    "url": "https://lifehacker.com/avoid-bad-or-fake-listings-on-airbnb-with-a-reverse-goo-1663919812",
+    "date": "2014-11-30",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Dave Greenbaum"
+    ],
+    "excerpt": "Avoid Bad or Fake Listings on Airbnb With a Reverse Google Search Via Lifehacker by Dave Greenbaum Airbnb rentals are generally safe, but an occasional scammer slips through the system. If you doubt a listing is legit, try doing a reverse image search on the pictures. We've covered ways to avoid problems with Airbnb rentals before, but travel blog Skift recently brought up a more serious issue: fake rentals. A host creates a fake listing and steals the credit card info from the traveler. The renter has to scramble to find someplace to rent at the last minute, typically at a higher price. This scam is the same type you'll see on Craigslist with people renting fake properties. Our tip to avoid those with a reverse image search also works here. When I tried this with some Airbnb listings, I d"
+  },
+  {
+    "key": "greenbaumBatchDeletePhotos2014",
+    "title": "Batch Delete Photos in iOS from the Moments Section",
+    "url": "https://lifehacker.com/batch-delete-photos-in-ios-from-the-moments-section-1583798983",
+    "date": "2014-05-31",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Dave Greenbaum"
+    ],
+    "excerpt": "Batch Delete Photos in iOS from the Moments Section May 31, 2014 3 Comments Add as a preferred source on Google Dave Greenbaum In most areas of iOS' Photos app, you can only delete photos one at a time. What a pain. However, if you go to the Moments section, you can actually delete photos in batches. Before you delete anything, backup the photos you want just in case. Then, go into the Photos app, switch to the Moments section, and select the Moment sections you want to delete. Then click the trash icon and delete the photos. How to quickly delete photos and videos to free up storage on your iPhone or iPad | iMore What do you think so far? Post a comment. 3 Table of Contents 6/25/26, 9:43 PM Batch Delete Photos in iOS from the Moments Section | Lifehacker https://lifehacker.com/batch-delet"
+  },
+  {
+    "key": "greenbaumDropTakeQuicker2014",
+    "title": "“Drop the E” to Take Quicker Handwritten Notes",
+    "url": "https://lifehacker.com/drop-the-e-to-take-quicker-handwritten-notes-1644861401",
+    "date": "2014-10-12",
+    "tags": [
+      "Webmark",
+      "IFTTT",
+      "Feedly"
+    ],
+    "creators": [
+      "Dave Greenbaum"
+    ],
+    "excerpt": "“Drop the E” to Take Quicker Handwritten Notes October 12, 2014 54 Comments Add as a preferred source on Google Dave Greenbaum When you are in a meeting or in class, writing by hand leads to more effective learning. It's just so darn slow. If you skip the letter \"e\" when writing, you'll write faster. Why You Learn More Effectively by Writing Than by Typing Read More Over at Quartz, they interviewed author RJ Blain for suggestions about taking notes without a laptop. She doesn't use a laptop to draft her novels, so she's experienced in writing the hard way. She recommends creating a form of shorthand that saves time and paper. Dropping the \"e\" is a good place to start: Table of Contents 6/25/26, 9:45 PM “Drop the E” to Take Quicker Handwritten Notes | Lifehacker https://lifehacker.com/drop-"
+  },
+  {
+    "key": "greenbaumPutCongratulationsYour2014",
+    "title": "Put “Congratulations” in Your Facebook Post So More People See It",
+    "url": "https://lifehacker.com/put-congratulations-in-your-facebook-post-so-more-peo-1641256756",
+    "date": "2014-10-18",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Dave Greenbaum"
+    ],
+    "excerpt": "Put “Congratulations” in Your Facebook Post So More People See It Via Lifehacker by Dave Greenbaum Facebook is constantly changing its algorithms for which of your posts are shown to your friends. A recent article suggests putting \"congratulations\" in the update might cause more people to see it. Facebook's recent posts setting tries to show us news we'd be most interested in. Who doesn't like to offer congratulations? Zeynep Tufekci has a theory on how to trick Facebook into showing your posts more often: Algorithms are meant to be gamed—my Facebook friends have now taken to posting faux \"congratulations\" to messages they want to push to the top of everyone's feeds, because Facebook's algorithm pushes such posts with the phrase \"congratulations\" in the comments to top of your feed. Recent"
+  },
+  {
+    "key": "greenbaumRebootYourIPhone2015",
+    "title": "Reboot Your iPhone Without Touching the Home or Power Button",
+    "url": "https://lifehacker.com/reboot-your-iphone-without-touching-the-home-or-power-b-1685038793",
+    "date": "2015-03-08",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Dave Greenbaum"
+    ],
+    "excerpt": "Reboot Your iPhone Without Touching the Home or Power Button Via Lifehacker by Dave Greenbaum iPhones, like computers, need to be rebooted on occasion. Maybe iMessage is acting up, for example. If your Home and Power button don't work, though, you can still reboot your Phone by changing certain settings. OS X Daily explains that changing certain settings will cause the phone to automatically reboot. For example: Changing the Accessibility options to Bold text Resetting Network Settings (note you'll lose saved passwords) The Accessibility option is obviously ideal, since it won't erase your saved passwords—but it's good to have both options. How to Restart Your iPhone or iPad without using the Power and Home Button | OS X Daily via iPhone Hacks This file was saved from Inoreader"
+  },
+  {
+    "key": "henryBestAppsAutomatically2014",
+    "title": "The Best Apps for Automatically Cleaning Up Your Music Library",
+    "url": "https://lifehacker.com/the-best-apps-for-automatically-cleaning-up-your-music-1561265062",
+    "date": "2014-04-09",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Alan Henry"
+    ],
+    "excerpt": "Home Tech Tech The Best Apps for Automatically Cleaning Up Your Music Library April 9, 2014 50 Comments Add as a preferred source on Google Alan Henry Your music library is precious. It's full of hard-to-find tracks, ripped CDs, and rare downloads. It might also be a mess. It can be easier to look up those songs on Spotify than enjoy the high- quality audio files you own. Luckily, there are some great free tools to clean it up and make sure that never happens again. Let's check out the best. There was a time when tagging and organizing your music was something that you set aside hours to do. You'd have to meticulously dig up artist, album, and track information for each song, type it all in, and download album art for everything. You can still do it all manually, but if you aren't super ni"
+  },
+  {
+    "key": "henryMossyDesktop2012",
+    "title": "The Mossy Desktop",
+    "url": "https://lifehacker.com/the-mossy-desktop-5938773",
+    "date": "2012-08-29",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Alan Henry"
+    ],
+    "excerpt": "The Mossy Desktop August 29, 2012 20 Comments Add as a preferred source on Google Alan Henry Flickr user Consuelo Valdes wanted a little nature with her desktop widgets, and didn't want to sacrifice seeing her wallpaper for the convenience of checking her favorite feeds on the desktop. The end-result is this beautiful desktop. Want the same look on your Windows system? Here's what you'll need: The wallpaper from Brothersoft The Rainmeter system configuration and management utility for Windows The Imposion 2 skin for Rainmeter to get the system monitors in the upper right corner of the screen The Omnimo theme for Rainmeter to get the RSS feeds and quick-access links on the left side of the screen Table of Contents 6/25/26, 10:02 PM The Mossy Desktop | Lifehacker https://lifehacker.com/the-m"
+  },
+  {
+    "key": "henryMxHeroToolboxAdds2013",
+    "title": "mxHero Toolbox Adds a Ton of Useful Tools to Gmail",
+    "url": "https://lifehacker.com/mxhero-toolbox-adds-a-ton-of-useful-tools-to-gmail-1328175731",
+    "date": "September 17, 2013",
+    "tags": [],
+    "creators": [
+      "Alan Henry"
+    ],
+    "excerpt": "Home Tech Tech mxHero Toolbox Adds a Ton of Useful Tools to Gmail September 17, 2013 22 Comments Add as a preferred source on Google Alan Henry Table of Contents 6/25/26, 10:03 PM mxHero Toolbox Adds a Ton of Useful Tools to Gmail | Lifehacker https://lifehacker.com/mxhero-toolbox-adds-a-ton-of-useful-tools-to-gmail-1328175731 1/7 Chrome: We've discussed some great tools to clean up your Gmail, but if you're looking for an all-in-one tool with a ton of features, mxHero Toolbox delivers. In one package, mxHero offers send later, self-destructing email, attachment tracking, notifications when your message is opened, and more. ADVERTISEMENT Clean Up Your Messy Gmail with These Extensions and Services Read More The video above does a pretty good job of explaining how the tool works. Once insta"
+  },
+  {
+    "key": "henryPSAYourPhone2019",
+    "title": "PSA: Your Phone Logs Everywhere You Go. Here's How to Turn It Off",
+    "url": "https://lifehacker.com/psa-your-phone-logs-everywhere-you-go-heres-how-to-t-1486085759",
+    "date": "2019-08-09",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Alan Henry"
+    ],
+    "excerpt": "PSA: Your Phone Logs Everywhere You Go. Here's How to Turn It Off and August 9, 2019 63 Comments Add as a preferred source on Google Credit: David Murphy Alan Henry David Murphy Table of Contents 6/25/26, 10:06 PM Your Phone Logs Everywhere You Go. Here's How to Turn It Off | Lifehacker https://lifehacker.com/psa-your-phone-logs-everywhere-you-go-heres-how-to-t-1486085759 1/15 You probably know your Android phone or iPhone can pinpoint your location for GPS, local search, or the weather. Hopefully, you also know that means your phone keeps track of everywhere you go, all the time. Don’t be alarmed—it’s the trade-off you make for the features you get. If it makes you uncomfortable, here’s how to opt-out of location-tracking on Android and iOS. Managing Location Services on Android If you’re"
+  },
+  {
+    "key": "henryUseSiriIFTTT2012",
+    "title": "Use Siri and IFTTT to Add Voice To-Dos to Astrid",
+    "url": "https://lifehacker.com/use-siri-and-ifttt-to-add-voice-to-dos-to-astrid-5944488",
+    "date": "September 19, 2012",
+    "tags": [],
+    "creators": [
+      "Alan Henry"
+    ],
+    "excerpt": "Use Siri and IFTTT to Add Voice To-Dos to Astrid September 19, 2012 7 Comments Add as a preferred source on Google Alan Henry Astrid is your favorite to-do list manager, but the ability to add to-dos by voice is a premium feature. Using IFTTT and Siri on your iOS device, you can add to-dos with your voice quickly without the hassle and the price tag. Five Best To-Do List Managers Read More This tip comes to us from the team at Astrid directly. Writing on the Astrid Blog, UX lead Henry Tsai explains that using this IFTTT recipe and adding Astrid as a contact will let you call up Siri, speak \"tell Astrid to buy some eggs,\" and Siri will email your to-do to Astrid, which will then route it to your to-do list automatically. You'll need to enable the SMS and Gmail channels in IFTTT to make it w"
+  },
+  {
+    "key": "henryWhoHasAccessShowsYou2014",
+    "title": "WhoHasAccess Shows You Who Still Has Permissions to Your Google Drive",
+    "url": "https://lifehacker.com/whohasaccess-shows-you-who-still-has-permissions-to-you-1617622146",
+    "date": "August 8, 2014",
+    "tags": [],
+    "creators": [
+      "Alan Henry"
+    ],
+    "excerpt": "WhoHasAccess Shows You Who Still Has Permissions to Your Google Drive August 8, 2014 Add as a preferred source on Google Alan Henry If you use Google Drive to collaborate as often as we do around here, you probably don't have time to go back and clean up permissions or old files when you're through with them. WhoHasAccess is a webapp that shows you all of the people and permissions you've granted so you can tighten up your security. WhoHasAccess is a side project of the folks behind previously mentioned Hojoki, and is a pretty simple tool. Just click the big \"Scan my Google Drive now\" button, grant the webapp permissions to your Drive files and folders (don't worry—as soon as the scan is completed they delete the data they collect and remove their access permissions—you can do the same on "
+  },
+  {
+    "key": "hesseEverythingYouNeed2020",
+    "title": "Everything You Need to Know About USB 4",
+    "url": "https://lifehacker.com/everything-you-need-to-know-about-usb-4-1843246620",
+    "date": "2020-05-04",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Brendan Hesse"
+    ],
+    "excerpt": "Everything You Need to Know About USB 4 Via Lifehacker by Brendan Hesse USB 4—or USB4, as it’s officially branded—is on the tech horizon, and like WiFi 6E or mobile 5G, you probably have plenty of questions about what the new USB standard means for your many devices. So, let’s take a quick look at everything we know about the upcoming USB4. Read more... This file was saved from Inoreader"
+  }
+]

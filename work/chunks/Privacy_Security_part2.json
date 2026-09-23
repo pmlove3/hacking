@@ -1,0 +1,55 @@
+[
+  {
+    "key": "patkarChromebleedNotifiesYou2014",
+    "title": "Chromebleed Notifies You if a Visited Site was Hit by Heartbleed Bug",
+    "url": "https://lifehacker.com/chromebleed-notifies-you-if-a-visited-site-was-hit-by-h-1562512336",
+    "date": "April 13, 2014",
+    "tags": [],
+    "creators": [
+      "Mihir Patkar"
+    ],
+    "excerpt": "Home Tech Tech Chromebleed Notifies You if a Visited Site was Hit by Heartbleed Bug April 13, 2014 19 Comments Add as a preferred source on Google Mihir Patkar Chrome: The Heartbleed bug is among the major security vulnerabilities we have seen in recent times. It's one of those cases where precaution is the order of the day. You could manually check sites or use Chromebleed, an extension that tells you if the site you're on was affected by the bug. Chromebleed uses Filippo Valsorda's little tool to test if the page was hit by Heartbleed and hasn't issued a patch yet. You're going to be safe on the bigger websites like Yahoo, but there's a chance that some of the smaller sites haven't yet patched their servers, so this little protection will help. If you do visit some such site, Chromebleed"
+  },
+  {
+    "key": "pinolaProtectYourATM2014",
+    "title": "Protect Your ATM PIN or Lock Combo from Thieves with This Quick Trick",
+    "url": "https://lifehacker.com/protect-your-atm-pin-or-lock-combo-from-thieves-with-th-1635396534",
+    "date": "2014-09-16",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Melanie Pinola"
+    ],
+    "excerpt": "Protect Your ATM PIN or Lock Combo from Thieves with This Quick Trick September 16, 2014 47 Comments Add as a preferred source on Google Melanie Pinola Table of Contents 6/25/26, 11:02 PM Protect Your ATM PIN or Lock Combo from Thieves with This Quick Trick | Lifehacker https://lifehacker.com/protect-your-atm-pin-or-lock-combo-from-thieves-with-th-1635396534 1/6 There's a new way for thieves to steal your ATM PIN code or find out which numbers you pressed on many keypads (like number door locks): All they need is an iPhone case that shows infrared. You can prevent it with a simple trick, though. ADVERTISEMENT Mark Rober explains in the video above how this works. Basically, the FLIR iPhone case has an infrared camera that picks up thermal heat signatures. When you press the buttons on a ke"
+  },
+  {
+    "key": "terpstraHowMakeYour2018",
+    "title": "How to Make Your Mac as Secure as Possible",
+    "url": "https://lifehacker.com/how-to-make-your-mac-as-secure-as-possible-1829531978",
+    "date": "2018-10-05",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Brett Terpstra"
+    ],
+    "excerpt": "How to Make Your Mac as Secure as Possible Via Lifehacker by Brett Terpstra Graphic: Brett Terpstra, Image: Adobe Stock In a recent blog post titled “ Hardening macOS,” Ricard Bejarano offers an extensive list of settings you can tweak to make macOS as secure as possible. It’s a comprehensive list of tasks—and we love it—but it’s important that you understand the “why” behind his recommendations, too. Here are a few of his top tips and explanations for why you’re adjusting, installing, or modifying your Mac that way: System Preferences is your new best friend Ricard’s advice: “Keep your system up-to-date, both macOS and installed software” Advertisement Apple frequently releases security updates and is often quick to provide patches for new threats. Keeping your software updated is a criti"
+  },
+  {
+    "key": "willhiteUnlockWiFiDisables2011",
+    "title": "Unlock With WiFi Disables Your Password-Protected Lockscreen When You're on Your Home Network",
+    "url": "https://lifehacker.com/unlock-with-wifi-disables-your-password-protected-locks-5788727",
+    "date": "2011-04-04",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Justin Willhite"
+    ],
+    "excerpt": "Home Tech Tech Unlock With WiFi Disables Your Password-Protected Lockscreen When You're on Your Home Network By Justin Willhite April 4, 2011 78 Comments Add as a preferred source on Google Table of Contents 6/25/26, 11:25 PM Unlock With WiFi Disables Your Password-Protected Lockscreen When You're on Your Home Network | Lifehacker https://lifehacker.com/unlock-with-wifi-disables-your-password-protected-locks-5788727 1/6 Android: Free app Unlock With WiFi toggles your Android device's security lock based on the Wi-Fi network you're connected to. ADVERTISEMENT A lot of us lock our Android devices with a pass code, pin, or pattern lock for security reasons, but those security measures can be frustrating to use every time you unlock your device— especially in places your device is unlikely to "
+  }
+]

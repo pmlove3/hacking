@@ -1,0 +1,260 @@
+[
+  {
+    "key": "klosowskiAllSpecialKey2016",
+    "title": "All the Special Key Combinations that Change Your Mac's Startup",
+    "url": "https://lifehacker.com/all-the-special-key-combinations-that-change-your-macs-1761327018",
+    "date": "2016-02-25",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "All the Special Key Combinations that Change Your Mac's Startup Via Lifehacker by Thorin Klosowski The startup sound is a Mac’s way of letting you know everything is okay, but sometimes, things go bad and you need to boot into a different mode then usual. Mac’s have a bunch of options for this, and all they require is that you hold down a keyboard shortcut at boot. To boot into one of these modes, press and hold these key combinations immediately after you turn on your Mac. Keep holding them until your Mac boots into the mode you need. Here are the key combinations and what you’d use them for: Shift: Starts your Mac in safe mode. This helps you troubleshoot because it only loads the minimum necessary kernel extensions at boot then disables startup items, user-installed fonts, font caches, "
+  },
+  {
+    "key": "klosowskiBestTricksExtensions2014",
+    "title": "The Best Tricks and Extensions to Make Wikipedia Awesome",
+    "url": "https://lifehacker.com/the-best-tricks-and-extensions-to-make-wikipedia-awesom-1569461217",
+    "date": "April 30, 2014",
+    "tags": [],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "Home Tech Tech The Best Tricks and Extensions to Make Wikipedia Awesome April 30, 2014 17 Comments Add as a preferred source on Google Thorin Klosowski Wikipedia is a useful resource for all kinds of things, but it's pretty ugly and not all that customizable. With just a few extensions and tricks, you can make it a lot more usable. Use Simple English Wikipedia to Better Understand Complex Subjects Wikipedia is already pretty simplified, but a ton of its articles are still really difficult to understand. Simple English Wikipedia can help you understand complex subjects. The basic idea with Simple English Wikipedia is that it skips the complex terms and makes it so anyone can understand a complicated subject. For example, this article on black holes ditches the complex physics terms and word"
+  },
+  {
+    "key": "klosowskiBuildTimeMachine2014",
+    "title": "Build a Time Machine Backup Server with a Raspberry Pi",
+    "url": "https://lifehacker.com/build-a-time-machine-backup-server-with-a-raspberry-pi-1629629222",
+    "date": "2014-09-03",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "Build a Time Machine Backup Server with a Raspberry Pi September 3, 2014 20 Comments Add as a preferred source on Google Thorin Klosowski Time Machine is a great, built-in service in OS X that makes backups super easy, and Apple's Time Capsule makes the whole process even easier. Unfortunately, Apple's official hard drive solution is a bit pricey at $300. Raymii shows how to build one with a Raspberry Pi. Essentially, you're turning the Raspberry Pi into a low-powered NAS, but this one's fully compatible with Apple's Time Machine software. This means you can encrypt your backups, run backups on a schedule, and more. All you really need to do is run a few commands, install some software, and set up your external hard drive. From there, you can use Apple's software to backup your Mac just li"
+  },
+  {
+    "key": "klosowskiDictationFreeEasytoUse2012",
+    "title": "Dictation Is a Free, Easy-to-Use Speech-to-Text App for Chrome",
+    "url": "https://lifehacker.com/dictation-is-a-free-easy-to-use-speech-to-text-app-for-5934165",
+    "date": "August 13, 2012",
+    "tags": [],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "Dictation Is a Free, Easy-to-Use Speech-to-Text App for Chrome August 13, 2012 9 Comments Add as a preferred source on Google Thorin Klosowski Table of Contents 6/25/26, 10:20 PM Dictation Is a Free, Easy-to-Use Speech-to-Text App for Chrome | Lifehacker https://lifehacker.com/dictation-is-a-free-easy-to-use-speech-to-text-app-for-5934165 1/6 Chrome: Google Chrome has a built-in speech recognition system, but you can only use it in certain places. Dictation is a webapp that uses Chrome's speech recognition engine, but allows you to dictate much larger chunks of text right inside a simple webapp. ADVERTISEMENT From the Dictation webapp, you can either click the microphone, or hit Ctrl+Shift+. (period) to activate dictation mode. Then, you simply need to start speaking. Dictation recognizes "
+  },
+  {
+    "key": "klosowskiDisplayYourEntire2013",
+    "title": "Display Your Entire Download HIstory on a Mac with a Terminal Command",
+    "url": "https://lifehacker.com/display-your-entire-download-history-on-a-mac-with-a-te-5976042",
+    "date": "2013-01-15",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "Display Your Entire Download HIstory on a Mac with a Terminal Command January 15, 2013 38 Comments Add as a preferred source on Google Thorin Klosowski Your Mac logs pretty much everything you download, and if you've lost a file, or you just want to see how much you've downloaded, iDownloadBlog shares a simple Terminal command that reveals everything you've put into your Downloads folder. Chances are you download a lot of things over you Mac's life, and if you want to find an old file you've since deleted, or you're just curious to see how much you downloaded, all it takes is a Terminal (Applications > Utilities) command: sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'select LS One you load that up, Terminal should give you a (potentially very large) list of eve"
+  },
+  {
+    "key": "klosowskiFindFilesTaking2014",
+    "title": "Find the Files Taking Up the Most Space in Google Drive with this Link",
+    "url": "https://lifehacker.com/find-the-files-taking-up-the-most-space-in-google-drive-1666863242",
+    "date": "2014-12-04",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "Find the Files Taking Up the Most Space in Google Drive with this Link Via Lifehacker by Thorin Klosowski At a glance, Google Drive doesn't allow you to sort files by size, which makes clearing out space kind of a pain. Thankfully, Digital Inspiration points to a hidden little spot where you can find that info. If you hover your mouse over the \"space used\" text in the bottom left corner in Drive, then select Drive, you'll get a list of your files sorted by file size. Better yet, you can just head to drive.google.com/#quota to get to that sorting method immedietly. If you need to free up space, this makes things a lot easier. How to Easily Find the Biggest Files in your Google Drive | Digital Inspiration This file was saved from Inoreader"
+  },
+  {
+    "key": "klosowskiFixOSXs2015",
+    "title": "Fix OS X's Obnoxious Birthday Reminders with Two Clicks",
+    "url": "https://lifehacker.com/fix-os-xs-obnoxious-birthday-reminders-with-two-clicks-1730098210",
+    "date": "2015-09-11",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "Fix OS X's Obnoxious Birthday Reminders with Two Clicks Via Lifehacker by Thorin Klosowski [embedded content] If you’re an OS X user, you’ve probably seen a number of birthday reminders pop up in your Notification Center. If you’re not a fan of these, Lifehacker-alum Adam Dachis shows you how to turn them off. All you need to do is open up Calendar, right-click the birthday box on the left side, select “Get Info,” and check the box marked “Ignore Alerts.” If you’re getting a bunch of notifications for people’s birthdays, you might want to look for other birthday calendars under Facebook or Google and do the same. How to Fix OS X’s Annoying Birthday Calendar Notifications | Supercharged This file was saved from Inoreader"
+  },
+  {
+    "key": "klosowskiFoundUniversalSearch2012",
+    "title": "Found Is a Universal Search for Your Mac Hard Drive, Dropbox, Gmail, and Google Drive Files",
+    "url": "https://lifehacker.com/found-is-a-universal-search-for-your-mac-hard-drive-dr-5916172",
+    "date": "2012-06-06",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "Found Is a Universal Search for Your Mac Hard Drive, Dropbox, Gmail, and Google Drive Files June 6, 2012 21 Comments Add as a preferred source on Google Thorin Klosowski Mac: If you use different cloud services like Dropbox and Google Drive it can be a pain to track down a specific file quickly. Found is an app that makes searching for files on the cloud and your hard drive as easy as using the default Spotlight search. The handy thing about Found is that when you type in a search it immediately pops up a large preview of the top hit. As you scroll through the results you'll see large images, fully readable text documents, and songs you can listen to just like you would with Quick Look. You have to sign in with your Google info to add in Gmail and Google Drive, but once you do it integrate"
+  },
+  {
+    "key": "klosowskiHowMakeYour2014",
+    "title": "How to Make Your Own Bulk App Installer for OS X",
+    "url": "https://lifehacker.com/how-to-make-your-own-bulk-app-installer-for-os-x-1586252163",
+    "date": "2014-06-05",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "Home Tech Tech How to Make Your Own Bulk App Installer for OS X June 5, 2014 34 Comments Add as a preferred source on Google Thorin Klosowski The worst part about setting up a new Mac is finding and downloading all your software. It's time-consuming, boring, and usually feels like a waste of time. Thankfully, with just a little bit of setup, you can automate the whole process with Homebrew and Homebrew Cask so you never have to do it again. What Is Homebrew? Homebrew is a command line utility that automates the process of downloading most of the apps you'll want to install on a new computer. Essentially, you can just type in a single command in Terminal to download and install software instead of searching for it in your browser, downloading it, and then running an installer. This includes"
+  },
+  {
+    "key": "klosowskiHowUseDrafts2012",
+    "title": "How to Use Drafts to Speed Up Your Mobile Note Writing",
+    "url": "https://lifehacker.com/how-to-use-drafts-to-speed-up-your-mobile-note-writing-5938073",
+    "date": "2012-08-27",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "How to Use Drafts to Speed Up Your Mobile Note Writing August 27, 2012 18 Comments Add as a preferred source on Google Thorin Klosowski The iPhone and iPad app, Drafts, is an excellent way to quickly jot down a note without worrying about where it goes. But if you dig deeper, it's far more than that—it's a speed dial for all your text based work, a text app launcher of sorts—and it has replaced every writing app I have on my iPad and iPhone. What makes Drafts immediately interesting is how quick and easy it is to take down a quick note. Drafts understands that it's a mobile app, and subsequently, every time you launch Drafts it opens up to a new, blank page. You write first, then decide where to send it second. You can keep these notes within Drafts, or configure it to work with other popu"
+  },
+  {
+    "key": "klosowskiKillNewsletterConverts2016",
+    "title": "Kill the Newsletter Converts Newsletter Subscriptions Into RSS Feeds",
+    "url": "https://lifehacker.com/kill-the-newsletter-converts-newsletter-subscriptions-i-1788953342",
+    "date": "November 14, 2016",
+    "tags": [],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "Kill the Newsletter Converts Newsletter Subscriptions Into RSS Feeds November 14, 2016 7 Comments Add as a preferred source on Google Thorin Klosowski If you’re a RSS user who hates getting newsletters in your email, Kill the Newsletter is a simple little service that’ll kick those newsletters over to an RSS feed, so you can peruse them at your leisure. Newsletters aren’t all bad, but getting them in your email can be a bit disruptive. RSS is a good place for them because you’re used to a seeing lot of content in that kind of feed and you can look back on it whenever you want. Kill the Newsletter creates a fake email address for you, then creates a RSS feed for any newsletter you send to that email address. It’s a super easy to use system that works really well for anyone still holding ont"
+  },
+  {
+    "key": "klosowskiRandomizeYourComputers2014",
+    "title": "Randomize Your Computer's MAC Address with This Script",
+    "url": "https://lifehacker.com/randomize-your-computers-mac-address-with-this-script-1588874922",
+    "date": "2014-06-10",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "Randomize Your Computer's MAC Address with This Script June 10, 2014 38 Comments Add as a preferred source on Google Thorin Klosowski Your computer's MAC address is on part of what makes it possible for people to secretly track you. If you want to really prevent that from happening, blogger Jonathan Zdziarski shows off a simple bash script that'll randomize your address every 30 seconds. Zdziarski's script works in OS X, but it should be easy to adapt to other operating systems. Once you get it running, it'll change your MAC address every 30 seconds so you can be sure nobody's tracking you. If you're less worried about trackers and would prefer to just spoof your MAC address, we've got you covered, but randomizing is helpful if you're really worried that someone might be on your tail. It's"
+  },
+  {
+    "key": "klosowskiSafariSpotlightCan2014",
+    "title": "Safari and Spotlight Can Send Data to Apple, Here's How to Turn it Off",
+    "url": "https://lifehacker.com/safari-and-spotlight-can-send-data-to-apple-heres-how-1648453540",
+    "date": "October 20, 2014",
+    "tags": [],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "Safari and Spotlight Can Send Data to Apple, Here's How to Turn it Off October 20, 2014 8 Comments Add as a preferred source on Google Thorin Klosowski In order for Spotlight to work properly, it needs to send your search data to Google, Apple, and Bing. Initially, it seems easy enough to disable this if you care about privacy, but as users over on Hacker News note, it's not as obvious as it seems. When you're using your Mac with all the default settings, anything you search for in Safari or Spotlight gets sent to Apple along with whatever search engine it's pinging. It's not totally clear why your data needs to go to Apple, but that certainly makes searching with a search engine like DuckDuckGo slightly pointless. To turn all this stuff off and get a bit of privacy back you'll need to dis"
+  },
+  {
+    "key": "klosowskiYourMacLogs2014",
+    "title": "Your Mac Logs Everything You Download, Here's How to Clear It Out",
+    "url": "https://lifehacker.com/your-mac-logs-everything-you-download-heres-how-to-cle-1658394180",
+    "date": "2014-11-13",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "Thorin Klosowski"
+    ],
+    "excerpt": "Your Mac Logs Everything You Download, Here's How to Clear It Out Via Lifehacker by Thorin Klosowski OS X keeps a running log of every file you download, likely so it can help you troubleshoot later on if you download something you weren't supposed to. If you're not a fan of this behaviour, Macgasm shows you how to clear out that log. First off, if you want to see your log, you just need to type in a command into Terminal (Applications > Utilities): sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'select LSQuarantineDataURLString from LSQuarantineEvent' You should see a list of everything you've ever downloaded here. Mine went all the way back to my first download after I replaced the hard drive drive on my Mac (it was CrashPlan, obviously). It also includes every"
+  },
+  {
+    "key": "mcallisterURLUncoverScans2013",
+    "title": "URL Uncover Scans Shortened Links For Safer Browsing",
+    "url": "https://lifehacker.com/url-uncover-scans-shortened-links-for-safer-browsing-1073638534",
+    "date": "August 11, 2013",
+    "tags": [],
+    "creators": [
+      "Shep McAllister"
+    ],
+    "excerpt": "Home Tech Tech URL Uncover Scans Shortened Links For Safer Browsing August 11, 2013 15 Comments Add as a preferred source on Google Shep McAllister Shortened links are everywhere, but you never really know where they might take you. If you aren't sure whether to open one, URL Uncover can keep you safe. There are tons of sites that will expand a shortened link to tell you where it points, but URL Uncover takes things a few steps further. In addition to seeing the full URL, you'll get a page title, keywords, screenshot, and even a threat indicator powered by McAfee Site Advisor. And if the site raises red flags on SpamCop, URL Uncover will alert you to that too. Untiny Reveals Shortened URL Destinations Read More Table of Contents 6/25/26, 10:35 PM URL Uncover Scans Shortened Links For Safer"
+  },
+  {
+    "key": "murphyEverythingYouCan2020",
+    "title": "Everything You Can and Can't Do with Facebook's New Avatars",
+    "url": "https://lifehacker.com/everything-you-can-and-cant-do-with-facebooks-new-avata-1843479579",
+    "date": "2020-05-15",
+    "tags": [
+      "Webmark"
+    ],
+    "creators": [
+      "David Murphy"
+    ],
+    "excerpt": "Everything You Can and Can't Do with Facebook's New Avatars Via Gizmodo by David Murphy on Lifehacker, shared by Alyse Stanley to Gizmodo Screenshot: David Murphy I hate rollouts. I really do. Whenever a company announces some new, awesome feature, but drops the phrase “rolling out” into the description, I can’t tell you how annoyed I get. Invariably, it means I have to wait a week or more to try something out while seeing everyone I know get their special access before me. Facebook recently announced it is rolling out new Mii Avatars for everyone to use, and while I haven’t had to wait a month to get one, the debut of these avatars has been a bit of a mess. First, there was the “launch,” as Facebook announced how to get an avatar that, as far as I know, still doesn’t work for everyone: “T"
+  },
+  {
+    "key": "murphyHowManageCloudflares2018",
+    "title": "How to Manage Cloudflare's New DNS App",
+    "url": "https://lifehacker.com/how-to-manage-cloudflares-new-dns-app-1830435734",
+    "date": "2018-11-15",
+    "tags": [
+      "Webmark",
+      "LHK"
+    ],
+    "creators": [
+      "David Murphy"
+    ],
+    "excerpt": "How to Manage Cloudflare's New DNS App Via Lifehacker by David Murphy Image: Cloudflare Free DNS provider Cloudflare recently released a brand-new app for iOS and Android, “1.1.1.1,” that makes it incredibly easy to route all of your device’s DNS requests through the service’s speedy servers , not your ISP’s (likely slower) servers. In other words, this should make your web browsing feel faster. Better still, Cloudflare says it doesn’t store any data about what you’re browsing—unlike your ISP, potentially. What’s not to love about that? The app, free to install and use, comes with one minor hangup. Cloudflare CEO Matthew Prince teased the issue in a response to a blog comment a few days ago: “iOS, unfortunately, only allows you to set DNS settings on a per-WiFi-network basis. That means, y"
+  },
+  {
+    "key": "parab5HiddenBrave2023",
+    "title": "5 Hidden Brave Browser Features You Should Use",
+    "url": "https://lifehacker.com/brave-browser-best-hidden-features-1850895498",
+    "date": "October 3, 2023",
+    "tags": [],
+    "creators": [
+      "Pranay Parab"
+    ],
+    "excerpt": "Home Tech Tech 5 Hidden Brave Browser Features You Should Use Extend your battery life, read without distractions, and get around copy-paste blocking. October 3, 2023 1 Comment Add as a preferred source on Google Credit: The Bold Bureau - Shutterstock Pranay Parab Table of Contents 6/25/26, 10:41 PM The Best Hidden Brave Browser Features | Lifehacker https://lifehacker.com/brave-browser-best-hidden-features-1850895498 1/8 The Brave Browser is an excellent alternative to Chrome, sporting useful built-in features like an adblocker and anonymized Tor browsing. In my tests, it was almost as fast as Chrome, and, if you change some settings, you can make Brave even more private. But Brave also has some hidden features that can significantly improve your browsing experience: Enable them, and you "
+  },
+  {
+    "key": "petersonYourIPhoneHas2021",
+    "title": "Your iPhone Has Secret Codes",
+    "url": "https://lifehacker.com/your-iphone-has-secret-codes-1847902070",
+    "date": "2021-10-21T13:30:00.070Z",
+    "tags": [],
+    "creators": [
+      "Jake Peterson"
+    ],
+    "excerpt": "Home Tech Apple Apple Your iPhone Has Secret Codes These hidden numerical codes can be used to change or check the settings on your iPhone. October 21, 2021 20 Comments Add as a preferred source on Google Credit: DenPhotos - Shutterstock Jake Peterson Table of Contents 6/25/26, 10:53 PM How to Use the Secret Codes on Your iPhone | Lifehacker https://lifehacker.com/your-iphone-has-secret-codes-1847902070 1/10 I love hidden features on my devices. It’s fun to learn something new about the tech you use every day, to discover the little features that aren’t advertised. And unless you spend a lot of time messing around in the Phone app, dialer codes are likely among those hidden features for you as well. Dialer codes are, as their name implies, codes you dial into your iPhone’s phone app. These"
+  },
+  {
+    "key": "pinola14GreatWays2021",
+    "title": "14 Great Ways to Teach Yourself to Code",
+    "url": "https://lifehacker.com/top-10-ways-to-teach-yourself-to-code-1684250889",
+    "date": "2021-02-05T19:15:00.889Z",
+    "tags": [
+      "Webmark"
+    ],
+    "creators": [
+      "Melanie Pinola",
+      "Gloria Sin"
+    ],
+    "excerpt": "1/19 lifehacker.com /top-10-ways-to-teach-yourself-to-code-1684250889 14 Great Ways to Teach Yourself to Code Melanie Pinola ⋮ Gloria Sin ⋮ ⋮ 2/5/2021 School If you want to learn how to code, taking your first steps into this huge universe might seem like a daunting, if not intimidating task. Here’s the big secret: There are plenty of free (and inexpensive) resources you can use to give yourself all the help you need, teach yourself new techniques, and make this learning process fun and exciting—as exciting as coding can get, at least. Whether you’re an adult looking to transition into the tech industry, a student looking to learn the latest language, or a hobbyist who just wants to understand how software and services work, all you need is a computer and internet access to start your prog"
+  }
+]
