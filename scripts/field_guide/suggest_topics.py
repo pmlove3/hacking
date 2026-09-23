@@ -90,5 +90,31 @@ def format_report(topics_terms: list[list[str]], topics_examples: list[list[str]
     return "\n".join(lines).rstrip() + "\n"
 
 
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--input", required=True, help="Path to excerpts.json from step 1")
+    ap.add_argument("--topics", type=int, default=12, help="Number of topics to discover")
+    ap.add_argument("--top-words", type=int, default=12, help="Top terms to show per topic")
+    ap.add_argument("--examples", type=int, default=5, help="Example item titles to show per topic")
+    ap.add_argument("--output", help="Write the report to this file instead of printing it")
+    args = ap.parse_args()
+
+    items = json.loads(Path(args.input).read_text())
+    documents = build_documents(items)
+
+    vectorizer, nmf_model, doc_topic_matrix = vectorize_and_fit(documents, n_topics=args.topics)
+    topics_terms = top_terms_per_topic(vectorizer, nmf_model, args.top_words)
+    topics_examples = top_examples_per_topic(doc_topic_matrix, items, args.examples)
+    report = format_report(topics_terms, topics_examples)
+
+    if args.output:
+        out_path = Path(args.output)
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(report)
+        print(f"Wrote topic report to {out_path}")
+    else:
+        print(report)
+
+
 if __name__ == "__main__":
-    pass
+    main()
