@@ -1,5 +1,6 @@
 from suggest_topics import build_documents
 from suggest_topics import vectorize_and_fit, top_terms_per_topic, top_examples_per_topic
+from suggest_topics import format_report
 
 CAT_CAR_ITEMS = [
     {"title": "Cats are great pets", "excerpt": "Cats love naps and cats purr all day long."},
@@ -44,9 +45,6 @@ def test_build_documents_handles_missing_excerpt():
 def test_build_documents_handles_missing_title():
     items = [{"excerpt": "Only an excerpt here."}]
     assert build_documents(items) == ["Only an excerpt here."]
-
-
-from suggest_topics import format_report
 
 
 def test_format_report_includes_terms_and_examples():

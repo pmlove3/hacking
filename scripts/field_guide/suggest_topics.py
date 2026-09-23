@@ -43,7 +43,13 @@ def _import_sklearn():
     return TfidfVectorizer, NMF
 
 
-def vectorize_and_fit(documents, n_topics, max_df=0.90, min_df=2, ngram_range=(1, 2)):
+def vectorize_and_fit(
+    documents: list[str],
+    n_topics: int,
+    max_df: float = 0.90,
+    min_df: int = 2,
+    ngram_range: tuple[int, int] = (1, 2),
+) -> tuple:
     """Fit TF-IDF + NMF over the given documents. Deterministic (init='nndsvd',
     random_state=42), per research: NMF-over-TF-IDF is the better fit for
     short documents, LDA needs much larger corpora to be stable."""
@@ -57,7 +63,7 @@ def vectorize_and_fit(documents, n_topics, max_df=0.90, min_df=2, ngram_range=(1
     return vectorizer, nmf_model, doc_topic_matrix
 
 
-def top_terms_per_topic(vectorizer, nmf_model, top_n: int) -> list:
+def top_terms_per_topic(vectorizer, nmf_model, top_n: int) -> list[list[str]]:
     feature_names = vectorizer.get_feature_names_out()
     topics = []
     for component in nmf_model.components_:
@@ -66,7 +72,7 @@ def top_terms_per_topic(vectorizer, nmf_model, top_n: int) -> list:
     return topics
 
 
-def top_examples_per_topic(doc_topic_matrix, items: list, top_n: int) -> list:
+def top_examples_per_topic(doc_topic_matrix, items: list[dict], top_n: int) -> list[list[str]]:
     examples = []
     for topic_idx in range(doc_topic_matrix.shape[1]):
         scores = doc_topic_matrix[:, topic_idx]
