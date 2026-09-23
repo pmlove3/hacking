@@ -20,10 +20,23 @@ lowercase keywords, e.g.:
 Items are assigned to the FIRST category whose keyword matches (checked in
 config order), so put more specific categories earlier. Items matching no
 category go to a catch-all bucket (default name: "Miscellaneous").
+
+Keywords are matched as whole words/phrases (not substrings), so "art" will
+NOT match "apartment" or "smart". This means keyword lists need to list the
+inflected forms you actually want to catch, e.g. use
+["invest", "investing", "investment", "investor"] instead of relying on
+"invest" to substring-match "investing".
 """
 import argparse
 import json
+import re
 from pathlib import Path
+
+
+def matches_category(haystack: str, keywords: list[str]) -> bool:
+    """Whole-word/whole-phrase match: avoids substring false positives like
+    keyword "art" matching "apartment" or "smart"."""
+    return any(re.search(rf"\b{re.escape(kw.lower())}\b", haystack) for kw in keywords)
 
 
 def main():
@@ -44,7 +57,7 @@ def main():
         haystack = " ".join([item.get("title", ""), *item.get("tags", [])]).lower()
         assigned = False
         for name, keywords in categories.items():
-            if any(kw.lower() in haystack for kw in keywords):
+            if matches_category(haystack, keywords):
                 buckets[name].append(item)
                 assigned = True
                 break
