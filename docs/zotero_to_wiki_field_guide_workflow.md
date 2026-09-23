@@ -30,6 +30,7 @@ Everything under a source's `work/` directory is throwaway/regeneratable from `r
 ## Prerequisites
 - A Better BibTeX (BBT) JSON export of a Zotero collection, placed at `sources/<source_name>/raw/<export>.json`, with attached PDFs in a `files/` folder next to it (this is how Zotero writes BBT exports with attachments — the scripts resolve attachment paths relative to the export JSON's own folder).
 - Python 3 with `PyMuPDF` installed for PDF text extraction: `pip install pymupdf`.
+- Python 3 with `scikit-learn` installed if you want to use the topic-modeling assist script in step 2: `pip install scikit-learn`.
 
 ## Adding a new source (quick start)
 
@@ -109,6 +110,17 @@ python3 scripts/field_guide/categorize.py \
 ```
 
 Items are assigned to the first category whose keyword matches (config order matters — put more specific categories first). Anything unmatched lands in a catch-all bucket (default `Miscellaneous`, override with `--catchall`). `sources/lifehacker/categories.json` is a working example; re-tune the keyword lists for each new source's subject matter, and check the catch-all bucket's size afterward — if it's large, add more categories or keywords rather than letting one oversized "misc" bucket carry most of the source.
+
+**Before writing `categories.json` for a new source**, run the topic-modeling assist script to see what's actually in the corpus instead of guessing keywords blind:
+
+```bash
+python3 scripts/field_guide/suggest_topics.py \
+  --input sources/<name>/work/excerpts.json \
+  --topics 12 \
+  --output sources/<name>/work/topic_report.md
+```
+
+This is a read-only report (top terms + example item titles per discovered topic) — it does not write `categories.json` for you. Read the topics, then write your keyword lists informed by what's actually there. Keywords match as whole words/phrases (not substrings), so list the inflected forms you want to catch, e.g. `["invest", "investing", "investment"]` rather than relying on `"invest"` to substring-match `"investing"`.
 
 ### 3. Chunking for 100% Citation Coverage
 LLMs tend to omit items when summarizing large lists. To guarantee every source is cited, each category is split into chunks of 15-20 items.
