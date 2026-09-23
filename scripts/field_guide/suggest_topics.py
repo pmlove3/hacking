@@ -75,5 +75,20 @@ def top_examples_per_topic(doc_topic_matrix, items: list, top_n: int) -> list:
     return examples
 
 
+def format_report(topics_terms: list[list[str]], topics_examples: list[list[str]]) -> str:
+    """Render topics' top terms and example item titles as a Markdown report."""
+    lines = []
+    for i, (terms, examples) in enumerate(zip(topics_terms, topics_examples), start=1):
+        lines.append(f"## Topic {i}")
+        lines.append("")
+        lines.append("**Top terms:** " + ", ".join(terms))
+        lines.append("")
+        lines.append("**Example items:**")
+        for title in examples:
+            lines.append(f"- {title}")
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
 if __name__ == "__main__":
     pass

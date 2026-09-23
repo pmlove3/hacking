@@ -44,3 +44,17 @@ def test_build_documents_handles_missing_excerpt():
 def test_build_documents_handles_missing_title():
     items = [{"excerpt": "Only an excerpt here."}]
     assert build_documents(items) == ["Only an excerpt here."]
+
+
+from suggest_topics import format_report
+
+
+def test_format_report_includes_terms_and_examples():
+    topics_terms = [["cats", "purr", "nap"], ["cars", "race", "fast"]]
+    topics_examples = [["Cats are great pets"], ["Cars need gas"]]
+    report = format_report(topics_terms, topics_examples)
+    assert "## Topic 1" in report
+    assert "cats, purr, nap" in report
+    assert "- Cats are great pets" in report
+    assert "## Topic 2" in report
+    assert "- Cars need gas" in report
